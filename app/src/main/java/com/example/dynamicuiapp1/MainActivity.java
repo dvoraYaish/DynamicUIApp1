@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        GridLayout arrayGL = findViewById(R.id.arrGL);
+        GridLayout arrayGL = findViewById(R.id.arrayGL);
 
 
         Button[][] arrayButtons=new Button[3] [3];
