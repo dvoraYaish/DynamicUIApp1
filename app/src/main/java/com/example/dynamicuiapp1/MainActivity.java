@@ -25,8 +25,9 @@ public class MainActivity extends AppCompatActivity {
                 arrayButtons[i][j].setLayoutParams (new LinearLayout.LayoutParams( 150, 150));
                 arrayButtons[i][j].requestLayout();
                 arrayButtons[i][j].setPadding ( 10, 10,  10, 10);
-                arrayButtons[i][j].setText("" + i+","+j);
-                arrayButtons[i][j].setId(i*6+j);
+                arrayButtons[i][j].setId(i*3+j);
+                arrayButtons[i][j].setText(""+arrayButtons[i][j].getId());
+
                 arrayGL.addView(arrayButtons [i][j]);
             }
         }
